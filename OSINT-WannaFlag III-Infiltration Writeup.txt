@@ -1,0 +1,33 @@
+Name: OSINT | WannaFlag III: Infiltration - Writeup
+
+Points: 318
+
+**Challenge:**
+We have some solid leads so far. However, we need our flags back. Find a way to locate their communication and infiltrate their private ransom service, and submit the stolen flag we wanted to use for the first OSINT!
+
+From outside intelligence, we know the group sometimes goes by *w4nn4fl4g*
+
+Completion of this Challenge Unlocks:
+
+**WannaFlag IV: Exfiltration**
+
+**WannaFlag V: The Mastermind**
+
+=================================================================================================================
+
+Trying searching the group name known as* w4nn4fl4g* in google we come across reddit group.
+
+At first glance there are multiple memes and jokes in there.
+
+But you can notice some deleted comments and users, so maybe looking and searching in **waybackmachine** => https://archive.org/web/ (url) will be a good idea because there are saved snapshots of the pages from the past so we might be able to see data that is not available as of right now !-)
+
+Enter the url of the sub-reddit like so: https://www.reddit.com/r/w4nn4_fl4g/ and press on* Browse History* go to URLs tab where it's listing all the url's snapshots available related to the URL we've just entered.
+
+After some searches we can discover that everything created and deleted from the dates 12/march - 12/march is the most relevant because it was deleted same day which suggests us it's probably **TOP SECRET** staff...
+
+Narrowing our search we come across https://www.reddit.com/r/w4nn4_fl4g/comments/11p5w72/hiiiiiiiii_help/ URL which have two snapshots and the first one with a picture which states "hey guys how do i access the website", hmm, maybe the attackers website?
+
+Digging dipper into that we can see in the URLs all the comments to the post, searching all reveals that this link: https://www.reddit.com/r/w4nn4_fl4g/comments/11p5w72/comment/jbw99ft/
+Which turns out to have the early snapshot on the 12/march 05:09, going to it reveals a comment which states the following: "bruhhhh again NOT a meme. just post it as a question
+anyways it's *wanna-flag-d60bf7cd-012a-4fcc-9a4c-e60eca6b653f-tlejfksioa-ul.a.run.app*"
+And finally going to the link "wanna-flag-d60bf7cd-012a-4fcc-9a4c-e60eca6b653f-tlejfksioa-ul.a.run.app" reveals the flag in the page ==> **wctf{sp1nnnNn_tH3_cUb333e3E}**
